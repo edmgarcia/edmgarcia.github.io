@@ -1,0 +1,41 @@
+/* PRESETS */
+* {
+	box-sizing: border-box;
+	font-family: "Karla", sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, label {
+	margin: 0 0 15px 0;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+.a-link:hover {
+	color: #6944c6;
+}
+i.icon-left {
+	margin-right: 15px;
+}
+a > i.fa {
+	margin-right: 0;
+}
+p {
+	line-height: 1.3;
+}
+input, textarea, button {
+	margin: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+	width: 100%;
+}
+.no-gaps {
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,125 @@
+* {
+	box-sizing: border-box;
+	font-family: "Karla", sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #ccc;
+}
+header {
+	display: block;
+	margin: 0 0 20px 0;
+	position: relative;
+	width: 100%;
+}
+.nav, footer {
+	background-color: #2666ce;
+	padding: 10px 20px;
+}
+.nav--title {
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 auto;
+	max-width: 1024px;
+    overflow: hidden;
+	text-transform: uppercase;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.logo {
+	background-color: #fff;
+	border-radius: 100%;
+	vertical-align: middle;
+	width: 60px;
+}
+.container {
+	margin: 0 auto;
+	max-width: 900px;
+	padding: 0 15px;
+}
+.panel {
+	background-color: #fff;
+	border-radius: 6px;
+	padding: 20px;
+	margin-bottom: 25px;
+	min-width: 220px;
+}
+.panel--title {
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+.flex-parent {
+	display: flex;
+	flex-flow: row wrap;
+	gap: 15px;
+	justify-content: space-between;
+}
+.flex--item {
+	background-color: #e9e9e9;
+	border-radius: 6px;
+	cursor: pointer;
+	display: flex;
+	flex: 49%;
+	padding: 15px;
+	transition: all .4s ease-in-out;
+}
+.flex--item:hover {
+	background-color: #2666ce;
+	color: #fff;
+	box-shadow: 0 4px 6px 2px rgb(0 0 0 / 18%);
+}
+.flex--item:hover .flex--title {
+	color: #fff;
+}
+.flex--item:hover .flex--image {
+	border-radius: 100%;
+	background-color: #fff;
+}
+.flex--image {
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 80px;
+	margin-right: 10px;
+	width: 80px;
+}
+.flex--desc {
+	width: calc(100% - 110px);
+}
+.flex--desc > p {
+	margin-top: 15px;
+}
+.flex--title {
+	color: #2666ce;
+	text-transform: uppercase;
+}
+footer {
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+small {
+	font-size: .8rem;
+}
+.rounded {
+	border-radius: 100%;
+}
+
+@media all and (max-width: 425px) {
+	.flex--item, .flex--desc > small {
+		display: block;
+	}
+	.flex--image {
+		height: 150px;
+		margin: 0 auto 15px auto;
+		width: 150px;
+	}
+	.flex--title, .flex--desc > small {
+		text-align: center;
+	}
+	.flex--desc, .flex--desc > small {
+		width: 100%;
+	}
+}
