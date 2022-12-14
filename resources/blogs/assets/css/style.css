@@ -27,14 +27,14 @@ header {
 .header--flex, main {
 	margin: 0 auto;
 	position: relative;
-	width: 900px;
+	max-width: 900px;
 }
 main > article, main > aside {
 	float: left;
 }
 article {
 	margin-right: 20px;
-	width: 600px;
+	max-width: 600px;
 }
 aside {
 	width: calc(100% - 620px);
