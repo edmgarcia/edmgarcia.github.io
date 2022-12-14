@@ -24,6 +24,16 @@
 		top: 0;
 		left: 0;
 	}
+	#fourth:hover ~ #profile-wrap p, 
+	#fourth:hover ~ #profile-wrap .profile--greet span {
+		display: block;
+	}
+	#fourth:hover ~ #profile-wrap .profile--greet:after {
+		content: "";
+	}
+	#fourth:hover ~ #profile-wrap .profile--img {
+		background-image: url(../images/me.png);
+	}
 	.quad-wrap {
 		height: auto;
 	}
