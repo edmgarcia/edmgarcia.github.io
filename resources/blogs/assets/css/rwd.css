@@ -1,7 +1,4 @@
 @media only screen and (max-width: 1024px) {
-	main, header {
-		padding: 0 30px;
-	}
 	article {
 		max-width: 500px;
 	}
@@ -10,6 +7,11 @@
 	}
 }
 
+@media only screen and (max-width: 768px) {
+	main, header {
+    	padding: 0 30px;
+	}
+}
 @media only screen and (max-width: 767px) {
 	main, header {
 		padding: 0 15px;
