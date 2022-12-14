@@ -72,7 +72,7 @@ main {
 #fourth {
 	background-image: url(../images/confetti.png);
 	background-position-x: right;
-	background-position-y: bottom;
+	background-position-y: center;
 	background-repeat: no-repeat;
 	background-size: 400px;
 }
