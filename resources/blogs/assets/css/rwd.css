@@ -1,4 +1,7 @@
 @media only screen and (max-width: 1024px) {
+	/* main, header {
+		padding: 0 30px;
+	} */
 	article {
 		max-width: 500px;
 	}
@@ -11,10 +14,23 @@
 	main, header {
     	padding: 0 30px;
 	}
+	article {
+		max-width: 430px;
+	}
+	aside {
+		width: calc(100% - 450px);
+	}
 }
+
 @media only screen and (max-width: 767px) {
+	body {
+		padding-top: 70px;
+	}
 	main, header {
 		padding: 0 15px;
+	}
+	.header--flex {
+		height: 50px;
 	}
 	aside {
 		display: none;
