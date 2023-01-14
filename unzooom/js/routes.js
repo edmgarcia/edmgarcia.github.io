@@ -3,7 +3,7 @@ let you = {
 	score: 0
 }
 
-const baseUrl = `http://localhost:5500/projects/p2-js-game/`;
+const baseUrl = `https://edmgarcia.github.io/unzooom.html`;
 let urlObj = new URL(window.location.href);
 let youName = urlObj.searchParams.get("name");
 
