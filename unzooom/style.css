@@ -1,0 +1,256 @@
+* {
+	box-sizing: border-box;
+	font-family: "Karla", sans-serif;
+}
+h1, h2, h3, h4, h5, p {
+	margin: 0 0 10px 0;
+}
+hr {
+	display: block;
+	border-top: 1px solid #c9c9c9;
+	border-bottom: 1px solid #fbfbfb;
+	margin: 15px 0;
+}
+body {
+	background-color: #e5e5e5;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+.wrapper {
+	background-color: #fff;
+	box-shadow: 0px 4px 8px 0px rgb(0 0 0 / 15%);
+	width: 700px;
+	margin: 0 auto;
+}
+section {
+	align-items: center;
+	border: 10px solid #fff;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	padding: 30px;
+	width: 100%;
+}
+#ui_1 {
+	background-image: url(images/bg.png);
+	background-position: center center;
+	background-size: cover;
+}
+.inner {
+	background-color: rgb(0 0 0 / 80%);
+    border-radius: 8px;
+    color: #fff;
+	margin: 40px 0;
+	padding: 20px;
+	text-align: center;
+}
+header > h1 {
+	font-size: 4rem;
+	margin: 0 0 10px 0;
+}
+.input-wrapper {
+	margin: 10px 0;
+}
+.input-wrapper > input {
+	border: 0 none;
+	border-radius: 3px;
+	height: 35px;
+	padding: 0 10px;
+}
+#yourNameform button {
+	background-color: #92b12a;
+	border: 0 none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 6px 14px;
+}
+#ui_2 {
+	display: grid;
+    grid-template-columns: 1fr 150px;
+	padding: 0;
+}
+#statsWrapper {
+	background-color: #e5e5e5;
+	padding: 10px;
+}
+.item--label {
+	color: #888;
+	font-size: 11px;
+	margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+#profileAvatar {
+	border: 2px solid #fff;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+	border-radius: 100%;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	margin: 0 auto 10px auto;
+	height: 80px;
+	width: 80px;
+}
+#instruction {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	height: inherit;
+	width: inherit;
+}
+.instruction-overlay {
+	background-color: rgb(0 0 0 / 60%);
+	border-radius: 8px;
+	padding: 20px;
+}
+#startBtn {
+	box-shadow: 0px 4px 5px 1px rgb(0 0 0 / 15%);
+    padding: 14px 20px;
+    background-color: #2882ff;
+}
+#zoomPicCanvas {
+	height: 358px;
+	position: relative;
+	width: 100%;
+}
+#photo {
+	background-repeat: no-repeat;
+	background-position: center center;
+	height: inherit;
+	width: inherit;
+}
+#selection {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+}
+.selection-item {
+	background-color: #fff;
+	border-radius: 20px;
+	border: 2px solid #92b12a;
+	cursor: pointer;
+	margin: 0 10px;
+	padding: 8px 25px;
+}
+.selection-item.active, .selection-item:active {
+	background-color: #92b12a;
+	color: #fff;
+}
+button {
+	background-color: #92b12a;
+	border: 0 none;
+	border-radius: 3px;
+	color: #fff;
+	font-size: 1.2rem;
+	padding: 6px 14px;
+	cursor: pointer;
+}
+#startGame, #restart {
+	display: block;
+	width: 100%;
+}
+button:active {
+	background-color: #829d2b !important;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,0.15);
+}
+.hidden {
+	display: none !important;
+}
+.text-center {
+	text-align: center;
+}
+.game-prompt {
+	position: absolute;
+	top: 0;
+}
+.selection-item.disabled {
+	cursor: not-allowed;
+}
+@media screen and (max-width: 767px) {
+	.wrapper {
+		box-shadow: none;
+		height: 100vh;
+		width: auto;
+	}
+	header > h1 {
+		font-size: 2rem;
+	}
+	#yourNameform button {
+		font-size: 1rem;
+	}
+	#ui_2 {
+		border: 0 none;
+		padding: 0;
+		display: flex;
+    	flex-flow: column;
+		width: inherit;
+		height: inherit;
+	}
+	#zoomPicWrapper {
+		flex-grow: 1;
+	}
+	#zoomPicCanvas {
+		height: calc(100vh - 57px);
+	}
+	#photo {
+		width: 100vw;
+	}
+	#statsWrapper {
+		display: grid;
+    	grid-template-columns: auto repeat(2, 28%) auto;
+		grid-gap: 5px;
+		align-items: center;
+		width: 100%;
+		padding: 5px 0;
+	}
+	#statsWrapper > hr {
+		display: none;
+	}
+	#profileAvatar {
+		margin-bottom: 3px;
+		height: 30px;
+		width: 30px;
+	}
+	.instruction-overlay {
+		max-width: 80vw;
+		width: auto;
+	}
+	#youName {
+		font-size: 12px;
+		margin: 0;
+	}
+	.stats-item {
+		text-align: center;
+	}
+	.stats-item h1 {
+		margin: 0;
+	}
+	.item--label {
+		margin-bottom: 5px;
+	}
+	.selection-item {
+		font-size: .9rem;
+		padding: 6px 8px;
+	}
+	#restart {
+		font-size: .8rem;
+		padding: 10px;
+		margin: 0 auto;
+		width: auto;
+	}
+	.xs-hide {
+		display: none;
+	}
+}

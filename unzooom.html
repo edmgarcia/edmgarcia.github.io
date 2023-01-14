@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JavaScript | P2 JS Game</title>
+	<link rel="stylesheet" href="unzoom/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="wrapper">
+			<section id="ui_1" class="hidden">
+				<div class="inner">
+					<header>
+						<p>Are you up for an <b>eye</b> challenge?</p>
+						<h1>Unzoooom!</h1>
+					</header>
+					<main>
+						<form id="yourNameform">
+							<div class="input-wrapper">
+								<input type="text" placeholder="Enter your name" id="yourNameInput">
+							</div>
+							<button type="submit">Let's Go!</button>
+						</form>
+					</main>
+				</div>
+			</section>
+
+			<section id="ui_2" class="hidden">
+				<div id="zoomPicWrapper">
+					<div id="zoomPicCanvas">
+						<div id="instruction" class="text-center">
+							<div class="instruction-overlay">
+								<h1>Instructions</h1>
+								<p>Guess the photo before the countdown runs out!</p>
+								<p>You only have one chance to select an answer.</p>
+								<button id="startBtn">Let's Rock!</button>
+							</div>
+						</div>
+
+						<div id="photo" class="hidden">
+							<div id="selection"></div>
+						</div>
+					</div>
+				</div>
+				<div id="statsWrapper">
+					<div id="statsProfile">
+						<div id="profileAvatar"></div>
+						<p class="text-center" id="youName"></p>
+					</div>
+					<hr>
+					<div class="stats-item">
+						<p class="item--label">Score</p>
+						<h1 class="text-center" id="score">0</h1>
+					</div>
+					<hr>
+					<div class="stats-item">
+						<p class="item--label">Countdown</p>
+						<h1 class="text-center" id="countdown">10</h1>
+					</div>
+					<hr>
+					<div class="stats-item">
+						<button id="restart">Home</button>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+
+	<script src="unzoom/js/routes.js"></script>
+	<script src="unzoom/js/data.js"></script>
+	<script src="unzoom/js/script.js"></script>
+	<script src="unzoom/js/unzoom.js"></script>
+	<script src="unzoom/js/avatar.js"></script>
+</body>
+</html>
