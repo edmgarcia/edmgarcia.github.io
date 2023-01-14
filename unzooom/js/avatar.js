@@ -18,7 +18,7 @@ window.addEventListener("load", () => {
 	if (document.querySelector("#ui_2")) {
 		const random = Math.ceil(Math.random()*5);
 
-		document.querySelector("#profileAvatar").style.backgroundImage = `url(images/${avatars[random]})`;
+		document.querySelector("#profileAvatar").style.backgroundImage = `url(unzoom/images/${avatars[random]})`;
 	}
 
 	if (document.querySelector("#restart")) {
