@@ -375,7 +375,7 @@ const data = [
 		id: 62,
 		img: "unzooom/images/zoom/balloons.jpg",
 		title: "balloons",
-		buttons: ["balloons", "sky", "balloons"]
+		buttons: ["balloons", "crayons", "jellybeans"]
 	},
 	{
 		id: 63,
