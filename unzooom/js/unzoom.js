@@ -65,7 +65,7 @@ function showPrompt(header, message, button) {
 	const delayPrompt = setTimeout(() => {
 		parentElem.innerHTML += prompt;
 		
-		document.querySelector("#score").innerText = you.score === 0 ? 0 : you.score;
+		document.querySelector("#score").innerHTML = you.score === 0 ? 0 : you.score;
 
 		clearTimeout(delayPrompt);
 	},1300);
