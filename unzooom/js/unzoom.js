@@ -45,8 +45,8 @@ function checkAnswer(selected, answer) {
 		// selected is correct
 		showPrompt("Good job!", "Winner Winner Chicken Dinner", "Next");
 
-		// add one to score
-		you.score = you.score + 1;
+		// add countdownPoint to current score
+		you.score = you.score + countdownPoint;
 	} else {
 		// wrong or no answer
 		showPrompt("Naaah!", "Better luck next time.", "Home");
