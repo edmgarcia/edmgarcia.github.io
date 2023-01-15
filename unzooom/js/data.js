@@ -484,6 +484,66 @@ const data = [
 		img: "unzooom/images/zoom/goggles.jpg",
 		title: "goggles",
 		buttons: ["mirror", "glass", "goggles"]
+	},
+	{
+		id: 81,
+		img: "unzooom/images/zoom/helmet.jpg",
+		title: "helmet",
+		buttons: ["helmet", "goggles", "mirror"]
+	},
+	{
+		id: 82,
+		img: "unzooom/images/zoom/rhino.jpg",
+		title: "rhino",
+		buttons: ["elephant", "rhino", "buffalo"]
+	},
+	{
+		id: 83,
+		img: "unzooom/images/zoom/shark.jpg",
+		title: "shark",
+		buttons: ["whale", "shark", "sealion"]
+	},
+	{
+		id: 84,
+		img: "unzooom/images/zoom/radio.jpg",
+		title: "radio",
+		buttons: ["carpet", "radio", "television"]
+	},
+	{
+		id: 85,
+		img: "unzooom/images/zoom/pillow.jpg",
+		title: "pillow",
+		buttons: ["blanket", "cotton", "pillow"]
+	},
+	{
+		id: 86,
+		img: "unzooom/images/zoom/book.jpg",
+		title: "book",
+		buttons: ["book", "magazine", "crayon"]
+	},
+	{
+		id: 87,
+		img: "unzooom/images/zoom/pickles.jpg",
+		title: "pickles",
+		buttons: ["cucumber", "pickles", "asparagus"]
+	},
+	{
+		id: 88,
+		img: "unzooom/images/zoom/bed.jpg",
+		title: "bed",
+		buttons: ["blanket", "bed", "cabinet"]
+	},
+	{
+		id: 89,
+		img: "unzooom/images/zoom/sushi.jpg",
+		title: "sushi",
+		buttons: ["sushi", "chopsticks", "wood"]
+	},
+	{
+		id: 90,
+		img: "unzooom/images/zoom/paint.jpg",
+		title: "paint",
+		buttons: ["brush", "paint", "cans"]
 	}
 	
 ]
