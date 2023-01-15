@@ -181,6 +181,9 @@ button:active {
 	position: absolute;
 	top: 0;
 }
+.countdown-point {
+	color: #aaa;
+}
 .color-yellow {
 	color: gold;
 }
@@ -219,7 +222,7 @@ button:active {
 	#statsWrapper {
 		align-items: center;
 		display: grid;
-    	grid-template-columns: auto repeat(2, 28%) auto;
+    	grid-template-columns: repeat(3, auto) 70px;
 		grid-gap: 5px;
 		padding: 5px 0;
 		width: 100%;
