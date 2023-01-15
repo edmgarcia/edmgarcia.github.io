@@ -35,6 +35,8 @@ function selectActive(userAnswer) {
 				selectedAnswer = userAnswer.toLowerCase();
 				
 				selectionItem[i].classList.add("active");
+			} else {
+				selectionItem[i].classList.add("disabled");
 			}
 		}
 	}
