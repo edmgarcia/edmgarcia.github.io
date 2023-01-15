@@ -29,13 +29,13 @@ function unzoom(answer) {
 	const unzoomPhoto = setInterval(() => {
 		photo.style.backgroundSize = `${unzoomCount}px`;
 
-		if (unzoomCount <= 260) {
+		if (unzoomCount <= 300) {
 			checkAnswer(selectedAnswer, answer); // no answer
 			clearInterval(unzoomPhoto);
 		}
 
 		countdownRemaining = Number(countdown.innerText) === 0 ? 0 : Number(countdown.innerText) - 1;
-		unzoomCount = unzoomCount - 574;
+		unzoomCount = unzoomCount - 570;
 		countdown.innerText = Number(countdown.innerText) === 0 ? 0 : Number(countdown.innerText) - 1;
 	},1000);
 }
