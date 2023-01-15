@@ -49,7 +49,7 @@ function checkAnswer(selected, answer) {
 		you.score = you.score + countdownPoint;
 	} else {
 		// wrong or no answer
-		showPrompt("Naaah!", `Answer: <span class="color-yellow text-capitalize">${answer}</span>.<br><br>Better luck next time.`, "Home");
+		showPrompt("Naaah!", `Answer: <span class="color-yellow text-capitalize">${answer}</span><br><br>Better luck next time.`, "Home");
 	}
 }
 
