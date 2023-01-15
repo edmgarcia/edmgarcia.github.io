@@ -194,7 +194,7 @@ button:active {
 .color-yellow {
 	color: gold;
 }
-.text-capitalize {
+.text-capitalize, #youName {
 	text-transform: capitalize;
 }
 .warning, p.warning {
