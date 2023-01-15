@@ -274,9 +274,6 @@ button:active {
 		padding: 10px;
 		width: auto;
 	}
-	.xs-hide {
-		display: none;
-	}
 }
 
 @media screen and (max-width: 414px) {
