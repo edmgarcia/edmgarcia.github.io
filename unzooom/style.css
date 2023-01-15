@@ -43,6 +43,9 @@ section {
 	background-position: center center;
 	background-size: cover;
 }
+.inner-parent {
+	max-width: 400px;
+}
 .inner {
 	background-color: rgb(0 0 0 / 80%);
     border-radius: 8px;
@@ -50,6 +53,10 @@ section {
 	margin: 0 0 10px 0;
 	padding: 20px;
 	text-align: center;
+	width: inherit;
+}
+.inner > main {
+	margin-bottom: 15px;
 }
 header > h1 {
 	font-size: 4rem;
@@ -189,6 +196,9 @@ button:active {
 }
 .text-capitalize {
 	text-transform: capitalize;
+}
+.warning {
+	font-size: 9px;
 }
 @media screen and (max-width: 767px) {
 	.wrapper {
