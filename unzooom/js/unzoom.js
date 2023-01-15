@@ -21,21 +21,21 @@ function generateSelection(id) {
 }
 
 function unzoom(answer) {
-	let unzoomCount = 6000;
+	let photoSize = 6000;
 	let countdown = document.querySelector("#countdown");
 	
 	countdown.innerText = Number(10);
 	
 	const unzoomPhoto = setInterval(() => {
-		photo.style.backgroundSize = `${unzoomCount}px`;
+		photo.style.backgroundSize = `${photoSize}px`;
 
-		if (unzoomCount <= 300) {
+		if (photoSize <= 300) {
 			checkAnswer(selectedAnswer, answer); // no answer
 			clearInterval(unzoomPhoto);
 		}
 
 		countdownRemaining = Number(countdown.innerText) === 0 ? 0 : Number(countdown.innerText) - 1;
-		unzoomCount = unzoomCount - 570;
+		photoSize = photoSize - 570;
 		countdown.innerText = Number(countdown.innerText) === 0 ? 0 : Number(countdown.innerText) - 1;
 	},1000);
 }
@@ -49,7 +49,7 @@ function checkAnswer(selected, answer) {
 		you.score = you.score + countdownPoint;
 	} else {
 		// wrong or no answer
-		showPrompt("Naaah!", "Better luck next time.", "Home");
+		showPrompt(`Naaah!<br>Answer: <span class="color-yellow text-capitalize">${answer}</span>`, "Better luck next time.", "Home");
 	}
 }
 
