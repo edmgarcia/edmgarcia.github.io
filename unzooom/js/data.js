@@ -304,6 +304,66 @@ const data = [
 		img: "unzooom/images/zoom/cork.jpg",
 		title: "Cork",
 		buttons: ["Tree", "Cork", "Chocolate"]
+	},
+	{
+		id: 51,
+		img: "images/zoom/mirror.jpg",
+		title: "Mirror",
+		buttons: ["Chandelier", "Mirror", "Cabinet"]
+	},
+	{
+		id: 52,
+		img: "images/zoom/computer.jpg",
+		title: "Computer",
+		buttons: ["Computer", "TV", "Keyboard"]
+	},
+	{
+		id: 53,
+		img: "images/zoom/bowl.jpg",
+		title: "Bowl",
+		buttons: ["River", "Tile", "Bowl"]
+	},
+	{
+		id: 54,
+		img: "images/zoom/turtle.jpg",
+		title: "Turtle",
+		buttons: ["Grass", "Turtle", "Shell"]
+	},
+	{
+		id: 55,
+		img: "images/zoom/fork.jpg",
+		title: "Fork",
+		buttons: ["Fork", "Scissors", "Chopsticks"]
+	},
+	{
+		id: 56,
+		img: "images/zoom/necklace.jpg",
+		title: "Necklace",
+		buttons: ["Skin", "Pearl", "Necklace"]
+	},
+	{
+		id: 57,
+		img: "images/zoom/apple.jpg",
+		title: "Apple",
+		buttons: ["Tomato", "Cherry", "Apple"]
+	},
+	{
+		id: 58,
+		img: "images/zoom/car.jpg",
+		title: "Car",
+		buttons: ["Road", "Car", "Sky"]
+	},
+	{
+		id: 59,
+		img: "images/zoom/ribbon.jpg",
+		title: "Ribbon",
+		buttons: ["Ribbon", "Crayon", "Flower"]
+	},
+	{
+		id: 60,
+		img: "images/zoom/fridge.jpg",
+		title: "Fridge",
+		buttons: ["Egg", "Fridge", "Apple"]
 	}
 	
 ]
