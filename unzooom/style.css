@@ -183,6 +183,9 @@ button:active {
 .color-yellow {
 	color: gold;
 }
+.text-capitalize {
+	text-transform: capitalize;
+}
 @media screen and (max-width: 767px) {
 	.wrapper {
 		box-shadow: none;
