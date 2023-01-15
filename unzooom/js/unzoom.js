@@ -55,21 +55,31 @@ function checkAnswer(selected, answer) {
 
 function showPrompt(header, message, button) {
 	const prompt = 	`<div id="instruction" class="text-center game-prompt">
-						<div class="instruction-overlay">
-							<h1>${header}</h1>
-							<p>${message}</p>
-							<button id="${button === "Home" ? "home" : "startBtn"}">${button}</button>
-						</div>
-					</div>`;
-
+				<div class="instruction-overlay">
+					<h1>${header}</h1>
+					<p>${message}</p>
+					<button id="${button === "Home" ? "home" : "startBtn"}">${button}</button>
+				</div>
+			</div>`;
+	
 	const delayPrompt = setTimeout(() => {
-		parentElem.innerHTML += prompt;
+		if (you.score >= 100) {
+			parentElem.innerHTML += `<div id="instruction" class="text-center game-prompt">
+							<div class="instruction-overlay">
+								<h1>Awesome eye!</h1>
+								<h3>You've reached <b class="color-yellow">100 points.</b></h3>
+								<p>You have an eye of a tiger, raaawr!</p>
+								<button id="home">Home</button>
+							</div>
+						</div>`;
+		} else {
+			parentElem.innerHTML += prompt;
+		}
 		
 		document.querySelector("#score").innerHTML = you.score === 0 ? 0 : you.score;
 
 		clearTimeout(delayPrompt);
 	},1300);
-
 
 	selection.innerHTML = "";
 	selectedAnswer = "";
