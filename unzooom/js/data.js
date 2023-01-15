@@ -160,7 +160,7 @@ const data = [
 		img: "unzooom/images/zoom/candle.jpg",
 		title: "Candle",
 		buttons: ["Wand", "Pole", "Candle"]
-	},
+	}, // new
 	{
 		id: 27,
 		img: "unzooom/images/zoom/pot.jpg",
@@ -199,9 +199,9 @@ const data = [
 	},
 	{
 		id: 33,
-		img: "unzooom/images/zoom/xxx.jpg",
-		title: "xxx",
-		buttons: ["Tree", "Lemon", "Orange"]
+		img: "unzooom/images/zoom/robot.jpg",
+		title: "Robot",
+		buttons: ["Robot", "Light", "TV"]
 	},
 	{
 		id: 34,
@@ -217,9 +217,9 @@ const data = [
 	},
 	{
 		id: 36,
-		img: "unzooom/images/zoom/xxx.jpg",
-		title: "xxx",
-		buttons: ["Tree", "Lemon", "Orange"]
+		img: "unzooom/images/zoom/money.jpg",
+		title: "Money",
+		buttons: ["Money", "Painting", "Canvas"]
 	},
 	{
 		id: 37,
@@ -235,7 +235,7 @@ const data = [
 	},
 	{
 		id: 39,
-		img: "images/zoom/house.jpg",
+		img: "unzooom/images/zoom/house.jpg",
 		title: "House",
 		buttons: ["Bush", "House", "Cloud"]
 	},
@@ -247,9 +247,9 @@ const data = [
 	},
 	{
 		id: 41,
-		img: "unzooom/images/zoom/xxx.jpg",
-		title: "xxx",
-		buttons: ["Tree", "Lemon", "Orange"]
+		img: "unzooom/images/zoom/popcorn.jpg",
+		title: "Popcorn",
+		buttons: ["Table", "Tissue", "Popcorn"]
 	},
 	{
 		id: 42,
@@ -305,4 +305,5 @@ const data = [
 		title: "Cork",
 		buttons: ["Tree", "Cork", "Chocolate"]
 	}
+	
 ]
