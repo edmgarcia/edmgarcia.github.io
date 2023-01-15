@@ -424,6 +424,66 @@ const data = [
 		img: "unzooom/images/zoom/magazine.jpg",
 		title: "magazine",
 		buttons: ["books", "magazine", "TV"]
+	},
+	{
+		id: 71,
+		img: "unzooom/images/zoom/zebra.jpg",
+		title: "zebra",
+		buttons: ["zebra", "desert", "gown"]
+	},
+	{
+		id: 72,
+		img: "unzooom/images/zoom/flashlight.jpg",
+		title: "flashlight",
+		buttons: ["fire", "flashlight", "laser"]
+	},
+	{
+		id: 73,
+		img: "unzooom/images/zoom/notepad.jpg",
+		title: "notepad",
+		buttons: ["table", "notepad", "tissue"]
+	},
+	{
+		id: 74,
+		img: "unzooom/images/zoom/cookie.jpg",
+		title: "cookie",
+		buttons: ["cookie", "gingerbread", "mountain"]
+	},
+	{
+		id: 75,
+		img: "unzooom/images/zoom/octopus.jpg",
+		title: "octopus",
+		buttons: ["squid", "ocean", "octopus"]
+	},
+	{
+		id: 76,
+		img: "unzooom/images/zoom/lipstick.jpg",
+		title: "lipstick",
+		buttons: ["candy", "lipstick", "face"]
+	},
+	{
+		id: 77,
+		img: "unzooom/images/zoom/rabbit.jpg",
+		title: "rabbit",
+		buttons: ["flower", "grass", "rabbit"]
+	},
+	{
+		id: 78,
+		img: "unzooom/images/zoom/egg.jpg",
+		title: "egg",
+		buttons: ["wood", "egg", "icing"]
+	},
+	{
+		id: 79,
+		img: "unzooom/images/zoom/television.jpg",
+		title: "television",
+		buttons: ["carpet", "television", "painting"]
+	},
+	{
+		id: 80,
+		img: "unzooom/images/zoom/goggles.jpg",
+		title: "goggles",
+		buttons: ["mirror", "glass", "goggles"]
 	}
 	
 ]
