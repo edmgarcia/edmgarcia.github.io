@@ -118,10 +118,15 @@ main {
 .quad--footer img {
 	width: 60px;
 }
+.preview-card-list {
+	max-height: 40vh;
+    overflow-y: auto;
+}
 .preview-card {
 	display: grid;
 	grid-template-columns: 350px 1fr;
 	grid-gap: 10px;
+	margin-bottom: 30px;
 }
 .preview--photo img {
 	box-shadow: 0px 4px 6px 3px rgb(0 0 0 / 18%);
