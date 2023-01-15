@@ -3,7 +3,8 @@ let selectionItem = "";
 let instructionElem = "";
 let photo = "";
 let selection = "";
-let selectedAnswer = ""
+let selectedAnswer = "";
+let countdownPoint = "";
 
 document.addEventListener("click", e => {
 	const thisBtn = e.target;
@@ -19,7 +20,7 @@ document.addEventListener("click", e => {
 	}
 
 	if (thisBtn.className === "selection-item") {
-
+		countdownPoint = Number(document.querySelector("#countdown").innerHTML);
 		selectActive(thisBtn.innerText.toLowerCase());
 	}
 })
