@@ -171,13 +171,13 @@ const data = [
 		id: 28,
 		img: "unzooom/images/zoom/oven.jpg",
 		title: "Oven",
-		buttons: ["Oven", "Broad", "TV"]
+		buttons: ["Oven", "Board", "TV"]
 	},
 	{
 		id: 29,
-		img: "unzooom/images/zoom/oven.jpg",
-		title: "Oven",
-		buttons: ["Oven", "Broad", "TV"]
+		img: "unzooom/images/zoom/camera.jpg",
+		title: "Camera",
+		buttons: ["Lens", "Camera", "Leather"]
 	},
 	{
 		id: 30,
