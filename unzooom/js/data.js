@@ -160,5 +160,149 @@ const data = [
 		img: "unzooom/images/zoom/candle.jpg",
 		title: "Candle",
 		buttons: ["Wand", "Pole", "Candle"]
+	},
+	{
+		id: 27,
+		img: "unzooom/images/zoom/pot.jpg",
+		title: "Pot",
+		buttons: ["Dress", "Pot", "Candy"]
+	},
+	{
+		id: 28,
+		img: "unzooom/images/zoom/oven.jpg",
+		title: "Oven",
+		buttons: ["Oven", "Broad", "TV"]
+	},
+	{
+		id: 29,
+		img: "unzooom/images/zoom/oven.jpg",
+		title: "Oven",
+		buttons: ["Oven", "Broad", "TV"]
+	},
+	{
+		id: 30,
+		img: "unzooom/images/zoom/spaghetti.jpg",
+		title: "Spaghetti",
+		buttons: ["Tomatoes", "Spaghetti", "Blood"]
+	},
+	{
+		id: 31,
+		img: "unzooom/images/zoom/orange.jpg",
+		title: "Orange",
+		buttons: ["Tree", "Lemon", "Orange"]
+	},
+	{
+		id: 32,
+		img: "unzooom/images/zoom/burger.jpg",
+		title: "Burger",
+		buttons: ["Burger", "Bread", "Chicken"]
+	},
+	{
+		id: 33,
+		img: "unzooom/images/zoom/xxx.jpg",
+		title: "xxx",
+		buttons: ["Tree", "Lemon", "Orange"]
+	},
+	{
+		id: 34,
+		img: "unzooom/images/zoom/drumset.jpg",
+		title: "Drumset",
+		buttons: ["Drumset", "Steel", "Doll"]
+	},
+	{
+		id: 35,
+		img: "unzooom/images/zoom/coat.jpg",
+		title: "Coat",
+		buttons: ["Table", "Charcoal", "Coat"]
+	},
+	{
+		id: 36,
+		img: "unzooom/images/zoom/xxx.jpg",
+		title: "xxx",
+		buttons: ["Tree", "Lemon", "Orange"]
+	},
+	{
+		id: 37,
+		img: "unzooom/images/zoom/chicken.jpg",
+		title: "Chicken",
+		buttons: ["Leaf", "Orange", "Chicken"]
+	},
+	{
+		id: 38,
+		img: "unzooom/images/zoom/cellphone.jpg",
+		title: "Cellphone",
+		buttons: ["cellphone", "TV", "Xbox"]
+	},
+	{
+		id: 39,
+		img: "images/zoom/house.jpg",
+		title: "House",
+		buttons: ["Bush", "House", "Cloud"]
+	},
+	{
+		id: 40,
+		img: "unzooom/images/zoom/stamps.jpg",
+		title: "Stamps",
+		buttons: ["Stamps", "Pinetree", "Paper"]
+	},
+	{
+		id: 41,
+		img: "unzooom/images/zoom/xxx.jpg",
+		title: "xxx",
+		buttons: ["Tree", "Lemon", "Orange"]
+	},
+	{
+		id: 42,
+		img: "unzooom/images/zoom/button.jpg",
+		title: "Button",
+		buttons: ["Grape", "Shoe", "Button"]
+	},
+	{
+		id: 43,
+		img: "unzooom/images/zoom/scissors.jpg",
+		title: "Scissors",
+		buttons: ["Paper", "Scissors", "Fork"]
+	},
+	{
+		id: 44,
+		img: "unzooom/images/zoom/brush.jpg",
+		title: "brush",
+		buttons: ["Crayon", "Brush", "Wall"]
+	},
+	{
+		id: 45,
+		img: "unzooom/images/zoom/shovel.jpg",
+		title: "Shovel",
+		buttons: ["Dirt", "Gold", "Shovel"]
+	},
+	{
+		id: 46,
+		img: "unzooom/images/zoom/acorn.jpg",
+		title: "Acorn",
+		buttons: ["Leaf", "Acorn", "Branch"]
+	},
+	{
+		id: 47,
+		img: "unzooom/images/zoom/snail.jpg",
+		title: "Snail",
+		buttons: ["Turtle", "Lion", "Snail"]
+	},
+	{
+		id: 48,
+		img: "unzooom/images/zoom/tissue.jpg",
+		title: "Tissue",
+		buttons: ["Tissue", "Box", "Hanger"]
+	},
+	{
+		id: 49,
+		img: "unzooom/images/zoom/paperclip.jpg",
+		title: "Paperclip",
+		buttons: ["Metal", "Paperclip", "Silver"]
+	},
+	{
+		id: 50,
+		img: "unzooom/images/zoom/cork.jpg",
+		title: "Cork",
+		buttons: ["Tree", "Cork", "Chocolate"]
 	}
 ]
