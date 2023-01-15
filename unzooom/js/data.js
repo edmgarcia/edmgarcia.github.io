@@ -364,6 +364,66 @@ const data = [
 		img: "unzooom/images/zoom/fridge.jpg",
 		title: "Fridge",
 		buttons: ["Egg", "Fridge", "Apple"]
+	},
+	{
+		id: 61,
+		img: "unzooom/images/zoom/rope.jpg",
+		title: "rope",
+		buttons: ["net", "rope", "fabric"]
+	},
+	{
+		id: 62,
+		img: "unzooom/images/zoom/balloons.jpg",
+		title: "balloons",
+		buttons: ["balloons", "sky", "balloons"]
+	},
+	{
+		id: 63,
+		img: "unzooom/images/zoom/hammer.jpg",
+		title: "hammer",
+		buttons: ["wood", "hammer", "hand"]
+	},
+	{
+		id: 64,
+		img: "unzooom/images/zoom/milk.jpg",
+		title: "milk",
+		buttons: ["cotton", "table", "milk"]
+	},
+	{
+		id: 65,
+		img: "unzooom/images/zoom/coffee.jpg",
+		title: "coffee",
+		buttons: ["coffee", "bean", "chocolate"]
+	},
+	{
+		id: 66,
+		img: "unzooom/images/zoom/magenet.jpg",
+		title: "magenet",
+		buttons: ["bowling", "magenet", "table"]
+	},
+	{
+		id: 67,
+		img: "unzooom/images/zoom/whistle.jpg",
+		title: "whistle",
+		buttons: ["car", "plate", "whistle"]
+	},
+	{
+		id: 68,
+		img: "unzooom/images/zoom/matchbox.jpg",
+		title: "matchbox",
+		buttons: ["table", "candy", "matchbox"]
+	},
+	{
+		id: 69,
+		img: "unzooom/images/zoom/whale.jpg",
+		title: "whale",
+		buttons: ["ocean", "whale", "sky"]
+	},
+	{
+		id: 70,
+		img: "unzooom/images/zoom/magazine.jpg",
+		title: "magazine",
+		buttons: ["books", "magazine", "TV"]
 	}
 	
 ]
