@@ -21,6 +21,8 @@ document.addEventListener("click", e => {
 
 	if (thisBtn.className === "selection-item") {
 		countdownPoint = Number(document.querySelector("#countdown").innerHTML);
+
+		document.querySelector("#score").innerHTML = `${you.score}<span class="countdown-point" title="Potential Point">+${countdownPoint}</span>`;
 		selectActive(thisBtn.innerText.toLowerCase());
 	}
 })
