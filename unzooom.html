@@ -34,11 +34,13 @@
 			<section id="ui_2" class="hidden">
 				<div id="zoomPicWrapper">
 					<div id="zoomPicCanvas">
+						<span id="livesElem"></span>
 						<div id="instruction" class="text-center">
 							<div class="instruction-overlay">
 								<h1>Gameplay</h1>
 								<p>Guess the photo before the countdown runs out!</p>
 								<p>You only have <b class="color-yellow">one chance</b> to select an answer.</p>
+								<p>Every wrong guess, a 💚 will be deducted.</p>
 								<p>The faster you guess, the <b class="color-yellow">higher points</b> you'll get.</p>
 								<p>Reach <b class="color-yellow">100 points</b> to win.</p>
 								<button id="startBtn">Let's Rock!</button>
@@ -67,7 +69,10 @@
 					</div>
 					<hr>
 					<div class="stats-item">
-						<button id="restart">Home</button>
+						<div class="mini-btn-grid">
+							<button id="home" class="mini-btn"><img src="images/home.png" btn-click="home"></button>
+							<button id="refresh" class="mini-btn"><img src="images/refresh.png" btn-click="refresh"></button>
+						</div>
 					</div>
 				</div>
 			</section>
