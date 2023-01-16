@@ -1,3 +1,7 @@
+let you = {
+	name: "",
+	score: 0
+}
 const parentElem = document.querySelector("#zoomPicCanvas");
 let selectionItem = "";
 let instructionElem = "";
@@ -5,20 +9,40 @@ let photo = "";
 let selection = "";
 let selectedAnswer = "";
 let countdownPoint = "";
+let gameStarted = false;
+let lives;
+let usedId = [];
 
 document.addEventListener("click", e => {
 	const thisBtn = e.target;
 
-	if (thisBtn.id.toLowerCase() === "home") {
+	if (thisBtn.id.toLowerCase() === "home" || thisBtn.getAttribute("btn-click") === "home") {
+		// clears usedId
+		usedId = [];
 		window.location.replace(baseUrl);
+	}
+	
+	if (thisBtn.id.toLowerCase() === "refresh" || thisBtn.getAttribute("btn-click") === "refresh") {
+		window.location.replace(`${baseUrl}?name=${you.name}`);
 	}
 
 	if (thisBtn.id === "startBtn") {
 		instructionElem = document.querySelector("#instruction");
 		photo = document.querySelector("#photo");
-		startGame();
-	}
+		
+		if (gameStarted === false) {
+			lives = 3;
 
+			document.querySelector("#livesElem").innerHTML = "💚".repeat(lives);
+		} else {
+			document.querySelector("#livesElem").innerHTML = "💚".repeat(lives);
+		}
+		
+		gameStarted = true;
+
+		startGame(Math.floor(Math.random() * data.length));
+	}
+	
 	if (thisBtn.className === "selection-item") {
 		countdownPoint = Number(document.querySelector("#countdown").innerHTML);
 
