@@ -1,8 +1,3 @@
-let you = {
-	name: "",
-	score: 0
-}
-
 const baseUrl = `https://edmgarcia.github.io/unzooom.html`;
 let urlObj = new URL(window.location.href);
 let youName = urlObj.searchParams.get("name");
