@@ -119,7 +119,7 @@ main {
 	width: 60px;
 }
 .preview-card-list {
-	max-height: 40vh;
+	max-height: 50vh;
     overflow-y: auto;
 }
 .preview-card {
