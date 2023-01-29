@@ -39,6 +39,20 @@
 	}
 	.quad--item {
 		align-content: start;
+		padding: 0;;
+	}
+	.quad--entry {
+		display: grid;
+	}
+	.quad--title {
+		padding: 15px 15px 0 15px;
+	}
+	.quad--inner {
+		padding: 15px;
+		margin-bottom: 0;
+	}
+	.quad--inner {
+		max-height: 45vh;
 	}
 	.quad--left, 
 	.quad--right > img, 
@@ -65,6 +79,11 @@
 	#profile-wrap {
 		padding: 0 15px;
 	}
+	.quad--inner {
+		padding: 0;
+		margin: 0;
+		max-height: unset;
+	}
 	.profile--img {
 		height: 120px;
 		width: 120px;
@@ -73,6 +92,10 @@
 		display: block;
 	}
 	.quad--item {
-		padding: 50px 15px;
+		max-height: unset;
+		padding: 30px 15px;
+	}
+	.quad--title {
+		padding: 0 0 15px 0;
 	}
 }
