@@ -1,0 +1,232 @@
+html {
+	scroll-behavior: smooth;
+}
+* {
+	box-sizing: border-box;
+	font-family: "Karla", sans-serif;
+}
+body {
+	background-color: #e4e9ed;
+	background-image: url(images/pokeball.png);
+	background-repeat: no-repeat;
+	background-size: 400px;
+	background-position: -200px -60px;
+	margin: 0;
+	padding: 0 0 60px 0;
+}
+.container {
+	height: inherit;
+	margin: 0 auto;
+	max-width: 1260px;
+	position: relative;
+}
+#header {
+	margin: 20px 0;
+	text-align: center;
+}
+.logo {
+	max-width: 40%;
+	min-width: 300px;
+}
+.pokedex--list {
+	align-items: stretch;
+	display: grid;
+	justify-content: center;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 280px));
+	grid-gap: 20px;
+	margin-top: 20px;
+	padding-inline-start: 0;
+}
+.card {
+	background-color: #fff;
+	border-radius: 14px;
+	box-shadow: 0 2px 4px -2px rgb(0 0 0 / 25%);
+	color: #000;
+	display: flex;
+	padding: 8px;
+	position: relative;
+}
+.card--inner {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+    border-radius: 10px;
+	padding: 10px;
+}
+.header--image-wrapper {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.header--profile {
+	display: flex;
+	justify-content: space-between;
+}
+.card--main.dark-bg {
+	color: #fff;
+    text-shadow: 1px 1px 0px rgb(0 0 0 / 40%);
+}
+.profile--title {
+    color: #ffffff;
+    text-shadow: 2px 2px 0 rgb(27 53 110);
+	font-size: 1.2rem;
+	margin: 0;
+}
+.profile--title:first-child {
+	text-transform: capitalize;
+}
+.card-image {
+	width: 130px;
+}
+hr {
+	border-top: 1px solid #8383838a;
+    border-bottom: 1px solid #ffffff91;
+}
+#main {
+	margin-bottom: 50px;
+}
+.poke-desc {
+	text-align: justify;
+}
+.card--footer {
+}
+#footer {
+	background-color: #fff;
+    background-image: url(images/pokeball.png);
+    background-repeat: no-repeat;
+    background-size: 130px;
+    background-position: 80vw 6px;
+	box-shadow: 0 -2px 8px 1px rgb(0 0 0 / 15%);
+    margin: 0;
+    padding: 0;
+    height: 80px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+	z-index: 1;
+}
+.footer--abilities > .capsule {
+	text-transform: capitalize;
+	font-size: 14px;
+}
+.button-group {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	height: inherit;
+}
+.button-group button {
+	align-items: center;
+    border: 0 none;
+    border-radius: 6px;
+    color: #fff;
+	cursor: pointer;
+	display: inline-flex;
+	font-size: 1.4rem;
+	gap: 10px;
+	height: 46px;
+    justify-content: space-between;
+    min-width: 70px;
+    text-align: center;
+    padding: 10px;
+}
+.button-group button span {
+	display: inherit;
+}
+#next_btn {
+	background-color: #3166b1;
+}
+#next_btn:active {
+	background-color: #2055a0;
+}
+#prev_btn {
+	background-color: #ed1b24;
+}
+#prev_btn:active {
+	background-color: #da0a13;
+}
+.card:hover {
+	animation: bounce 0.5s linear;
+}
+.toast-parent {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	z-index: 9;
+}
+.toast--inner {
+    align-items: center;
+    background-color: rgba(0,0,0,0.6);
+    color: #fff;
+	display: inline-flex;
+    gap: 10px;
+    padding: 0 20px;
+}
+.toast {
+	margin-bottom: 10px;
+}
+.toast--inner > p {
+	text-align: left;
+}
+.align-center {
+	text-align: center;
+}
+.capsule {
+	background-color: #fff;
+    border-radius: 10px;
+	box-shadow: 0px 1px 1px 0px rgb(0 0 0 / 25%);
+	display: inline-block;
+	font-size: 11px;
+    padding: 4px 8px;
+}
+p.label {
+	font-size: 12px;
+    font-weight: bolder;
+    margin: 0 0 8px 0;
+    text-transform: uppercase;
+}
+@keyframes bounce {
+	20% {
+	  transform: translateY(-6px);
+	}
+  
+	40% {
+	  transform: translateY(0px);
+	}
+  
+	80% {
+	  transform: translateY(-2px);
+	}
+  
+	100% {
+	  transform: translateY(0);
+	}
+  }
+  @media screen and (max-width: 414px) {
+	body {
+		background-position: -150px -60px;
+		background-size: 300px;
+		padding-bottom: 20px;
+	}
+	#header {
+		margin: 15px 0;
+	}
+	#footer {
+		background-position: 85vw 6px;
+		background-size: 70px;
+		height: 50px;
+	}
+	.button-group button {
+		font-size: 1rem;
+		height: 35px;
+		min-width: 70px;
+	}
+	.toast-parent {
+		left: 0;
+		right: unset;
+		top: 0;
+		width: 100%;
+	}
+}
