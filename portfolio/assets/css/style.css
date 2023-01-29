@@ -37,8 +37,13 @@ main {
 .quad--item {
 	display: flex;
 	flex-flow: row wrap;
+	max-height: 53vh;
 	padding: 30px;
 	position: relative;
+}
+.quad--inner {
+	max-height: 38vh;
+	overflow-x: auto;
 }
 .overlay {
 	background-color: rgba(0,0,0,1);
@@ -51,20 +56,21 @@ main {
 	transition: background-color .8s ease-in-out;
 	width: 100%;
 }
-.quad--left {
+.quad--entry {
 	display: flex;
-    flex-flow: column wrap;
     justify-content: space-between;
-	width: 60%;
+	margin-bottom: 30px;
+}
+.quad--entry:last-child {
+	margin-bottom: 0;;
 }
 .quad--right {
 	text-align: center;
-	width: calc(100% - 60%);
 }
 .quad--right > img {
 	box-shadow: 0px 4px 6px 3px rgb(0 0 0 / 18%);
 	margin: 0 auto 15px auto;
-	width: 90%;
+	width: 80%;
 }
 .quad--body {
 	margin-bottom: 15px;
@@ -117,10 +123,6 @@ main {
 }
 .quad--footer img {
 	width: 60px;
-}
-.preview-card-list {
-	max-height: 50vh;
-    overflow-y: auto;
 }
 .preview-card {
 	display: grid;
