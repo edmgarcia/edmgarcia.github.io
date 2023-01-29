@@ -1,0 +1,78 @@
+/* Most tablets (Landscape) */
+@media only screen and (max-width: 1024px) {
+	main {
+		padding-top: 350px;
+	}
+	#profile-wrap {
+		align-content: center;
+		background: rgb(63,94,251);
+		background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+		display: grid;
+		justify-items: center;
+		height: 350px;
+		left: 0;
+		transform: unset;
+		top: 0;
+		position: fixed;
+		z-index: -1;
+		width: 100%;
+	}
+	#first:hover ~ #profile-wrap,
+	#second:hover ~ #profile-wrap,
+	#third:hover ~ #profile-wrap,
+	#fourth:hover ~ #profile-wrap {
+		top: 0;
+		left: 0;
+	}
+	#fourth:hover ~ #profile-wrap p, 
+	#fourth:hover ~ #profile-wrap .profile--greet span {
+		display: block;
+	}
+	#fourth:hover ~ #profile-wrap .profile--greet:after {
+		content: "";
+	}
+	#fourth:hover ~ #profile-wrap .profile--img {
+		background-image: url(../images/me.png);
+	}
+	.quad-wrap {
+		height: auto;
+	}
+	.quad--item {
+		align-content: start;
+	}
+	.quad--left, 
+	.quad--right > img, 
+	.preview-card, 
+	footer {
+		display: block;
+		width: 100%;
+	}
+	.quad--right {
+		margin-bottom: 30px;
+		order: -1;
+		width: 100%;
+	}
+	.overlay, .cta-hover {
+		display: none
+	}
+	#fourth {
+		background-image: none;
+	}
+}
+
+/* Most Tablets (Portrait) and most Smartphones (Landscape) */
+@media only screen and (max-width: 767px) {
+	#profile-wrap {
+		padding: 0 15px;
+	}
+	.profile--img {
+		height: 120px;
+		width: 120px;
+	}
+	.quad-wrap, .visible-sm-xs {
+		display: block;
+	}
+	.quad--item {
+		padding: 50px 15px;
+	}
+}

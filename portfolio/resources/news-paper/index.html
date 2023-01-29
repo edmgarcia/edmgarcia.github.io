@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>006 CSS Floats and Clears</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header>
+		<a href="../../">Back Home</a>
+	</header>
+
+	<section class="tile-container clearfix">
+		<h1 class="align-center">Headline</h1>
+		<div class="box width-100"></div>
+	</section>
+
+	<section class="tile-container clearfix">
+		<h1 class="align-center">Tile Feeds</h1>
+		<div class="parent-float">
+			<div class="float-left gap-10">
+				<div class="box"></div>
+			</div>
+			<div class="float-left gap-10">
+				<div class="box"></div>
+			</div>
+			<div class="float-left gap-10">
+				<div class="box"></div>
+			</div>
+			<div class="float-left gap-10">
+				<div class="box"></div>
+			</div>
+			<div class="float-left gap-10">
+				<div class="box"></div>
+			</div>
+			<div class="float-left gap-10">
+				<div class="box"></div>
+			</div>
+			<div class="float-left gap-10">
+				<div class="box"></div>
+			</div>
+			<div class="float-left gap-10">
+				<div class="box"></div>
+			</div>
+		</div>
+	</section>
+
+	<section class="tile-card-container clearfix">
+		<h1 class="align-center">Tile Feed Cards</h1>
+		<div class="parent-float">
+			<div class="float-left gap-10 border white">
+				<div class="box gap-10"></div>
+				<p class="align-center gap-10 color-white">Caption 1</p>
+			</div>
+			<div class="float-left gap-10 border white">
+				<div class="box gap-10"></div>
+				<p class="align-center gap-10 color-white">Caption 2</p>
+			</div>
+			<div class="float-left gap-10 border white">
+				<div class="box gap-10"></div>
+				<p class="align-center gap-10 color-white">Caption 3</p>
+			</div>
+			<div class="float-left gap-10 border white">
+				<div class="box gap-10"></div>
+				<p class="align-center gap-10 color-white">Caption 4</p>
+			</div>
+			<div class="float-left gap-10 border white">
+				<div class="box gap-10"></div>
+				<p class="align-center gap-10 color-white">Caption 5</p>
+			</div>
+			<div class="float-left gap-10 border white">
+				<div class="box gap-10"></div>
+				<p class="align-center gap-10 color-white">Caption 6</p>
+			</div>
+			<div class="float-left gap-10 border white">
+				<div class="box gap-10"></div>
+				<p class="align-center gap-10 color-white">Caption 7</p>
+			</div>
+			<div class="float-left gap-10 border white">
+				<div class="box gap-10"></div>
+				<p class="align-center gap-10 color-white">Caption 8</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="article-container clearfix">
+		<article class="article-container color-white">
+			<h1 class="article--title">UPLIFT Code Camp</h1>
+			<div class="article--body">
+				<div class="float-left box mr-10"></div>
+				<p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. In at fugit enim hic, ratione iste quibusdam recusandae tempora id repellat eos odio excepturi vel earum illo nisi ad nobis non.</i></p>
+				<p><i>Meatball salami turkey flank boudin, biltong landjaeger pastrami cupim short loin fatback filet mignon. Ribeye frankfurter pork chop, alcatra picanha bresaola cow kielbasa pancetta chuck tenderloin cupim biltong hamburger. Capicola brisket tail drumstick pork loin, prosciutto biltong doner short ribs tenderloin spare ribs cupim. Tri-tip sausage ribeye shankle venison chislic chicken rump kevin pork belly tail corned beef biltong prosciutto. Ball tip ham chislic short ribs pork tongue.</i></p>
+				<p><i>Bresaola leberkas short loin pork loin chislic chuck. Venison meatball landjaeger leberkas ham boudin chuck pastrami ground round. Bacon ham hock fatback, swine leberkas biltong turkey meatball chuck strip steak sausage flank chislic pork chop cupim. Pancetta frankfurter capicola tail porchetta filet mignon ground round cupim burgdoggen pork loin cow. Bacon shoulder short loin frankfurter pancetta corned beef venison buffalo alcatra.</i></p>
+				<p><i>Pork loin brisket landjaeger pork belly filet mignon. Kielbasa ribeye short ribs pancetta. Chislic t-bone hamburger, tongue ham capicola picanha prosciutto alcatra tail meatloaf turducken. Shankle ham hock sirloin shank ribeye picanha turducken filet mignon, alcatra biltong ham bresaola. Buffalo porchetta tri-tip turkey.</i></p>
+			</div>
+		</article>
+	</section>
+	
+	<section class="article-container clearfix">
+		<article class="color-white">
+			<h1 class="article--title">UPLIFT Code Camp</h1>
+			<div class="article--body">
+				<div class="float-left box mr-10"></div>
+				<div class="float-left">
+					<h3><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. In at fugit enim hic, ratione iste quibusdam recusandae tempora id repellat eos odio excepturi vel earum illo nisi ad nobis non.</i></h3>
+					<h3><i>Pork loin brisket landjaeger pork belly filet mignon. Kielbasa ribeye short ribs pancetta. Chislic t-bone hamburger, tongue ham capicola picanha prosciutto alcatra tail meatloaf turducken. Shankle ham hock sirloin shank ribeye picanha turducken filet mignon, alcatra biltong ham bresaola. Buffalo porchetta tri-tip turkey.</i></h3>
+					<h3><i>Corned beef cupim meatball prosciutto picanha chuck turkey. Doner kielbasa sausage drumstick swine. Doner pork chop frankfurter salami capicola, swine pork loin ball tip tail boudin pancetta beef. Flank sirloin hamburger, pork belly t-bone turducken meatloaf. Salami shoulder frankfurter strip steak, spare ribs tenderloin ham flank beef ribs ball tip short ribs kielbasa tongue. Short ribs jerky ham hock andouille tenderloin pastrami.</i></h3>
+				</div>
+			</div>
+		</article>
+	</section>
+	
+	<section class="add-comment-container clearfix">
+		<div class="float-left box small mr-10"></div>
+		<div class="float-left">
+			<textarea class="width-100" rows="6" placeholder="Add a comment"></textarea>
+		</div>
+		<div class="float-right mt-10">
+			<button>Cancel</button>
+			<button>Add</button>
+		</div>
+	</section>
+
+	<section class="comment-container clearfix">
+		<div class="comment-list">
+			<div class="comment-item comment--parent clearfix">
+				<div class="float-left box small mr-10"></div>
+				<div class="float-left color-white">
+					<h3>Juan Dela Cruz</h3>
+					<p>Pork loin brisket landjaeger pork belly filet mignon. Kielbasa ribeye short ribs pancetta. Chislic t-bone hamburger, tongue ham capicola picanha prosciutto alcatra tail meatloaf turducken.</p>
+					<a href="#">Like</a> <a href="#">Reply</a>
+				</div>
+			</div>
+				
+			<div class="comment--child float-right">
+				<div class="comment-item clearfix">
+					<div class="float-left box small mr-10"></div>
+					<div class="float-left color-white">
+						<h3>Jackie Chan</h3>
+						<p>Pork loin brisket landjaeger pork belly filet mignon. Kielbasa ribeye short ribs pancetta. Chislic t-bone hamburger, tongue ham capicola picanha prosciutto alcatra tail meatloaf turducken.</p>
+						<a href="#">Like</a> <a href="#">Reply</a>
+					</div>
+				</div>
+				<div class="comment-item clearfix">
+					<div class="float-left box small mr-10"></div>
+					<div class="float-left color-white">
+						<h3>Spider-man</h3>
+						<p>Pork loin brisket landjaeger pork belly filet mignon. Kielbasa ribeye short ribs pancetta. Chislic t-bone hamburger, tongue ham capicola picanha prosciutto alcatra tail meatloaf turducken.</p>
+						<a href="#">Like</a> <a href="#">Reply</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="ads-container clearfix">
+		<div class="ads--item mr-10">
+			<div class="float-left box medium rectangle mr-10"></div>
+			<div class="float-right ads--desc">
+				<h1 class="color-white">DIY Inexpensive Gifts for Valentines</h1>
+				<p class="color-accent">Free Shipping</p>
+				<p class="color-accent">Php 500.00</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="ads-container clearfix">
+		<div class="ads--item mr-10">
+			<div class="float-left ads--desc mr-10">
+				<h1 class="color-white">51 Smart Ideas for Small Apartment</h1>
+				<p class="color-accent">Free Shipping</p>
+				<p class="color-accent">Php 500.00</p>
+			</div>
+			<div class="float-right box medium rectangle"></div>
+		</div>
+	</section>
+
+	<section class="product-container clearfix">
+		<div class="float-left width-25 color-white">
+			<h1>Apple iPhone</h1>
+			<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit adipisci sit quas, optio nulla, itaque tenetur vero rerum enim temporibus perferendis, id natus quae libero nesciunt pariatur. Obcaecati, modi illo.</h3>
+			<div class="mt-20">
+				<a href="" class="a-btn">Read more</a>
+			</div>
+		</div>
+
+		<div class="float-right width-75">
+			<div class="parent-float">
+				<div class="float-right gap-10">
+					<div class="box"></div>
+				</div>
+				<div class="float-right gap-10">
+					<div class="box"></div>
+				</div>
+				<div class="float-right gap-10">
+					<div class="box"></div>
+				</div>
+				<div class="float-right gap-10">
+					<div class="box"></div>
+				</div>
+				<div class="float-right gap-10">
+					<div class="box"></div>
+				</div>
+				<div class="float-right gap-10">
+					<div class="box"></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="featured-container clearfix">
+		<div class="float-left">
+			<div class="parent-float">
+				<div class="float-left gap-10 border white">
+					<p class="align-center gap-10 color-white">Caption 1</p>
+					<div class="box small rectangle gap-15-5"></div>
+				</div>
+				<div class="float-left gap-10 border white">
+					<p class="align-center gap-10 color-white">Caption 2</p>
+					<div class="box small rectangle gap-15-5"></div>
+				</div>
+				<div class="float-left gap-10 border white">
+					<p class="align-center gap-10 color-white">Caption 3</p>
+					<div class="box small rectangle gap-15-5"></div>
+				</div>
+				<div class="float-left gap-10 border white">
+					<p class="align-center gap-10 color-white">Caption 4</p>
+					<div class="box small rectangle gap-15-5"></div>
+				</div>
+				<div class="float-left gap-10 border white">
+					<p class="align-center gap-10 color-white">Caption 5</p>
+					<div class="box small rectangle gap-15-5"></div>
+				</div>
+				<div class="float-left gap-10 border white">
+					<p class="align-center gap-10 color-white">Caption 6</p>
+					<div class="box small rectangle gap-15-5"></div>
+				</div>
+				<div class="float-left gap-10 border white">
+					<p class="align-center gap-10 color-white">Caption 7</p>
+					<div class="box small rectangle gap-15-5"></div>
+				</div>
+				<div class="float-left gap-10 border white">
+					<p class="align-center gap-10 color-white">Caption 8</p>
+					<div class="box small rectangle gap-15-5"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="float-right">
+			<article class="featured-article">
+				<div class="box block"></div>
+				<nav class="menu mt-20">
+					<button>menu 1</button>
+					<button>menu 2</button>
+					<button>menu 3</button>
+					<button>menu 4</button>
+				</nav>
+			</article>
+
+			<article class="color-white gap-10">
+				<div class="article--body">
+					<div class="float-left box small rectangle mr-10"></div>
+					<h1 class="article--title">Beautiful Baguio</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In at fugit enim hic, ratione iste quibusdam recusandae tempora id repellat eos odio excepturi vel earum illo nisi ad nobis non. Meatball salami turkey flank boudin, biltong landjaeger pastrami cupim short loin fatback filet mignon.</p>
+				</div>
+			</article>
+		</div>
+	</section>
+</body>
+</html>
