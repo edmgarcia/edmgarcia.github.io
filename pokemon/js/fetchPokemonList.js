@@ -67,6 +67,7 @@ const assemblePokemonData = (pokemonInfo, speciesInfo) => {
 				"cardBg": bg ? bg:cardBgArray["default"],
 				"expi": pokemonInfo[i].base_experience,
 				"height": pokemonInfo[i].height,
+				"id": pokemonInfo[i].id,
 				"image": pokemonInfo[i].sprites.front_default,
 				"moves": [moves] = pokemonInfo[i].moves,
 				"name": pokemonInfo[i].name,
