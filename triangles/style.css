@@ -1,0 +1,90 @@
+* {
+	box-sizing: border-box;
+	font-family: "Karla", sans-serif;
+}
+h1, h2, h3, h4, h5 {
+	margin-top: 0;
+}
+p {
+	line-height: 1.4;
+}
+body {
+	background-color: #d0d0d0;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	margin: 0 auto;
+	max-width: 420px;
+}
+main {
+	background-color: #fff;
+	padding: 10px;
+	margin: 0 0 15px 0;
+}
+#canvas {
+	background-color: #49484c;
+	border-radius: 4px;
+	color: #e7e40c;
+	display: none;
+	font-size: 30px;
+	padding: 20px;
+    position: relative;
+    right: -50%;
+    transform: translateX(-50%);
+}
+#canvas p {
+	letter-spacing: 5px;
+	margin: 0;
+}
+form {
+	align-items: center;
+	display: grid;
+	grid-template-columns: 1fr minmax(0, 60px) minmax(0, 80px);
+	width: 100%;
+}
+form > select,
+form > input, 
+form > button {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	outline: none;
+}
+form > select {
+	border-bottom-right-radius: 0;
+	border-right: 0 none;
+	border-top-right-radius: 0;
+	height: 33px;
+	padding: 0 10px;
+}
+form > input {
+	border-radius: 0;
+	height: 33px;
+	padding: 0 10px;
+}
+form > button {
+	background-color: #2591ff;
+	border-bottom-left-radius: 0;
+	border-left: 0 none;
+	border-top-left-radius: 0;
+	color: #fff;
+	cursor: pointer;
+	height: 33px;
+}
+form > button:active {
+	background-color: #1480ee;
+	box-shadow: inset 0px 1px 2px 0px rgb(0 0 0 / 45%);
+}
+.spaces {
+	color: #49484c;
+}
+.no-gaps {
+	margin: 0;
+	padding: 0;
+}
+@media screen and (max-width: 414px) {
+	footer {
+		padding: 0 10px;
+	}
+}

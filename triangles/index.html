@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>JavaScript | HW Triangle Loops</title>
+	<link id="page_favicon" href="https://via.placeholder.com/50x50" rel="icon" type="image/x-icon">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		<main>
+			<h2>Draw me a triangle!</h2>
+			<p>Select the triangle type and a desired height below, then click draw!</p>
+
+			<section id="canvas" class="hide"></section>
+		</main>
+
+		<footer>
+			<form method="post" id="form">
+				<select name="type">
+					<option value="1" selected>Inverted Isosceles</option>
+					<option value="2">Right Isosceles</option>
+					<option value="3">Inverted Equilateral</option>
+					<option value="4">Equilateral</option>
+					<option value="5">None of the above</option>
+				</select>
+				<input type="number" value="4" name="height" min="4" max="9">
+				<button>Draw!</button>
+			</form>
+		</footer>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
